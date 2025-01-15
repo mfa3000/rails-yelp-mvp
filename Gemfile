@@ -63,3 +63,4 @@ gem 'rails-controller-testing', group: [ :test ]
 # Gemfile
 # [...]
 gem "simple_form"
+gem "faker"

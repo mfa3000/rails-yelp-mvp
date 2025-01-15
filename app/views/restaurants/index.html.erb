@@ -1,0 +1,7 @@
+<h1>Restaurants#index</h1>
+<ul>
+  <%@restaurants.each do |restaurant|%>
+  <li><%=link_to restaurant.name, restaurant_path(restaurant)%></li>
+  <%end%>
+</ul>
+<button type="button" class="btn btn-primary"><%=link_to "Create restaurant", new_restaurant_path()%></button>
